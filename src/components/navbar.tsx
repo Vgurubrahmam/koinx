@@ -55,7 +55,7 @@ export default function Navbar() {
             </div> */}
 
             <div className="flex pl-4 items-center gap-x-2">
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="icon"
                 onClick={() => setIsOpen(!isOpen)}
@@ -63,7 +63,7 @@ export default function Navbar() {
                 aria-label="Toggle menu"
               >
                 {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-              </Button>
+              </Button> */}
               <ModeToggle />
             </div>
           </div>
