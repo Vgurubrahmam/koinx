@@ -2,14 +2,12 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { ModeToggle } from "@/components/ui/modetoggle"
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen] = useState(false)
 
 
 
